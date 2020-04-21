@@ -14,8 +14,6 @@ public class LabThree {
 		System.out.println("Hello! What's your name?");
 		name = scnr.next();
 
-		
-
 		System.out.println();
 
 		do {
@@ -38,9 +36,9 @@ public class LabThree {
 			System.out.print("Would you like to continue? ");
 			keepGoing = scnr.next().startsWith("y");
 			System.out.println();
-			
-		}while (keepGoing);
-		
+
+		} while (keepGoing);
+
 		System.out.println("Goodbye " + name);
 	}
 }
